@@ -1,0 +1,319 @@
+@charset "utf-8";
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    min-width: 1000px;
+    min-height: 550px;
+    background: url(../img/login_back.png) no-repeat center;
+}
+
+.ml110 {
+    margin-left: 110px;
+}
+
+.contents_box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contents_box .top_wrap {
+    position: relative;
+    height: 47px;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.contents_box .top_wrap .txt_box {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+.contents_box .top_wrap .welcome_txt {
+    display: inline-block;
+    font-size: 18px;
+    color: #eee;
+}
+
+.contents_box .top_wrap button {
+    margin-left: 20px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #eee;
+    cursor: pointer;
+    border: 1px solid #eee;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+}
+
+.contents_box .top_wrap button:hover {
+    background-color: #03a9f4;
+    font-weight: bold;
+}
+
+
+.contents_box .bottom_wrap {
+    width: 100%;
+    height: 503px;
+}
+
+.contents_box .bottom_wrap .left_wrap {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.contents_box .bottom_wrap .left_wrap ul {
+    margin-left: 20px;
+}
+
+.contents_box .bottom_wrap .left_wrap ul li {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.contents_box .bottom_wrap .left_wrap ul li span {
+    font-size: 20px;
+    margin-right: 5px;
+    color: transparent;
+}
+
+.contents_box .bottom_wrap .left_wrap ul li:hover span {
+    color: #03a9f4;
+}
+
+.contents_box .bottom_wrap .left_wrap ul li .select {
+    color: #03a9f4;
+}
+
+.contents_box .bottom_wrap .left_wrap ul li a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #eee;
+}
+
+.contents_box .bottom_wrap .left_wrap ul li:hover a {
+    color: #03a9f4;
+}
+
+.contents_box .bottom_wrap .right_wrap {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    overflow: auto;
+}
+
+.contents_box .bottom_wrap .right_wrap .input_wrap {
+    width: 100%;
+    height: 52%;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+}
+
+.contents_box .bottom_wrap .right_wrap .input_wrap > p {
+    margin: 3px auto 0;
+    font-size: 12px;
+    color: #ee2e24;
+    width: 500px;
+    text-align: left;
+    line-height: 15px;
+}
+
+.contents_box .bottom_wrap .right_wrap .input_wrap form .input_box {
+    display: inline-block;
+    font-size: 16px;
+    color: #eee;
+}
+
+.contents_box .bottom_wrap .right_wrap .input_wrap form .input_box:nth-child(3) {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 47px;
+}
+
+.contents_box .bottom_wrap .right_wrap .input_wrap form .input_box:nth-child(4) {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 47px;
+}
+
+.contents_box .bottom_wrap .right_wrap .input_wrap form .input_box label {
+    font-size: 16px;
+    color: #eee;
+}
+
+.contents_box .bottom_wrap .right_wrap .input_wrap form .input_box input[type="text"] {
+    width: 300px;
+}
+
+.contents_box .bottom_wrap .right_wrap .input_wrap form .input_box input[type="file"] {
+    width: 200px;
+    border: 1px solid #eee;
+    color: #eee;
+    margin-right: 20px;
+}
+
+.contents_box .bottom_wrap .right_wrap .input_wrap form .input_box input[type="checkbox"] {
+    margin-left: 15px;
+}
+
+.contents_box .bottom_wrap .right_wrap .input_wrap form input[type="button"]#insert_templet_btn,
+.contents_box .bottom_wrap .right_wrap .input_wrap form input[type="button"]#modify_templet_btn {
+    width: 130px;
+    margin: 10px auto 0;
+    color: #eee;
+    cursor: pointer;
+    border: 1px solid #eee;
+    background-color: rgba(0, 0, 0, 0);
+    height: 25px;
+    font-size: 16px;
+    padding: 0 7px;
+}
+
+.contents_box .bottom_wrap .right_wrap .input_wrap form input[type="button"]#insert_templet_btn:hover,
+.contents_box .bottom_wrap .right_wrap .input_wrap form input[type="button"]#modify_templet_btn:hover {
+    background-color: #03a9f4;
+}
+
+/* 검색 */
+.find {
+    height: 40px;
+    width: 506px;
+    border: 3px solid #ee2e24;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.find #find {
+    font-size: 16px;
+    width: 440px;
+    padding: 8px;
+    border: 0;
+    outline: none;
+    float: left;
+}
+.find #submit_btn {
+    width: 50px;
+    height: 40px;
+    border: 0;
+    background-color: #ee2e24;
+    outline: none;
+    float: right;
+    color: #fff;
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap {
+    width: 100%;
+    height: 48%;
+    overflow: auto;
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box {
+    border-bottom: 1px solid #eee;
+    /* background-color: red; */
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box_title {
+    border-bottom: 4px solid #eee;
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box>.text {
+    display: inline-block;
+    font-size: 16px;
+    color: #eee;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box>.text img {
+    width: 100%;
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box>.code {
+    width: 10%;
+    /* background-color: #222; */
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box>.img {
+    width: 15%;
+    /* background-color: #444; */
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box>.category {
+    width: 20%;
+    /* background-color: #666; */
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box>.category>p {
+    font-size: 15px;
+    color: #eee;
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box>.tag {
+    width: 20%;
+    /* background-color: #888; */
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box>.user {
+    width: 20%;
+    /* background-color: #222; */
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box>.text>form {
+    margin: 10px 0;
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box .view_btn {
+    color: #eee;
+    padding: 1px 8px;
+    font-size: 16px;
+    background-color: #ee2e24;
+    border: 1px solid #ee2e24;
+    cursor: pointer;
+    outline: none;
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box .no_view_btn {
+    color: #eee;
+    padding: 1px 8px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #eee;
+    cursor: pointer;
+    outline: none;
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box .modify_btn {
+    color: #eee;
+    padding: 1px 8px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #eee;
+    cursor: pointer;
+    outline: none;
+}
+
+.contents_box .bottom_wrap .right_wrap .templet_list_wrap .templet_list_box .delete_templet_btn {
+    color: #eee;
+    padding: 1px 8px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #eee;
+    cursor: pointer;
+    outline: none;
+}
+

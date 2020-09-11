@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+.wrap {
+    min-width: 1310px;
+    min-height: 936px;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1300px;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 13%;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+
+.header .container img {
+    width: 130px;
+    vertical-align: top;
+}
+
+.header .container .logo_text {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.header .container .logo_text p:first-child {
+    font-size: 21px;
+}
+
+.header .container .logo_text p:last-child {
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.introduce_box {
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.introduce_box img {
+    width: 700px;
+}
+
+.btn_box {
+    width: 100%;
+    height: 39%;
+}
+
+.btn_box .container {
+    position: relative;
+}
+
+.btn_box .container #blue_cate {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    height: 60px;
+}
+
+.btn_box .container #green_cate {
+    position: absolute;
+    top: 30px;
+    left: 820px;
+    height: 60px;
+}
+
+.btn_box .container #templet_sample {
+    position: absolute;
+    top: 90px;
+    left: 220px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.btn_box .container #db_site {
+    position: absolute;
+    top: 90px;
+    left: 510px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.btn_box .container #epost_site {
+    position: absolute;
+    top: 90px;
+    left: 832px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.footer {
+    height: 8%;
+    background-color: #3e3a39;
+}
+
+.footer .container {
+    position: relative;
+    height: 75px;
+}
+
+.footer .container img {
+    width: 250px;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer .container .address {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer .container .address p {
+    font-size: 16px;
+    text-align: left;
+    color: #eee;
+}
